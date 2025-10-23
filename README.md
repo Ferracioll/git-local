@@ -283,6 +283,43 @@ git push origin nome-da-branch
 
 ---
 
+## 🤝 Como Adicionar Colaboradores a um Repositório Privado
+
+Para compartilhar seu repositório privado com outras pessoas e permitir que elas acessem, editem ou contribuam com o código, é necessário adicioná-las como colaboradoras.
+
+Siga o passo a passo abaixo para gerenciar o acesso no GitHub:
+
+## ⚙️ Passo a Passo para Adicionar Colaboradores
+
+1.  **Acesse seu Repositório no GitHub**
+    * Vá até o site `https://github.com` e entre na sua conta.
+    * Abra o repositório privado desejado.
+
+2.  **Abra as Configurações do Repositório**
+    * No menu superior do repositório, clique na aba **"Settings"** (Configurações).
+
+3.  **Vá até a Seção de Acesso**
+    * No menu lateral esquerdo, clique em **"Collaborators"** ou **"Manage access"** (Gerenciar acesso).
+
+4.  **Adicione um Novo Colaborador**
+    * Clique no botão **"Add people"** (Adicionar pessoas).
+
+5.  **Procure o Usuário**
+    * Digite o **nome de usuário** ou **e-mail** da pessoa que você quer adicionar e selecione-a na lista que aparece.
+
+6.  **Defina as Permissões**
+    * Escolha o nível de acesso que a pessoa terá:
+        * **Read (Leitura):** Apenas visualiza o repositório.
+        * **Write (Escrita):** Pode enviar (`push`) alterações.
+        * **Admin (Administrador):** Controle total sobre o repositório.
+
+7.  **Envie o Convite**
+    * Clique em **"Add collaborator"** (Adicionar colaborador).
+
+> **Observação:** O colaborador receberá um convite por e-mail ou no GitHub e precisará **aceitar o convite** para começar a colaborar.
+
+---
+
 ## 📘 Créditos
 
 Material criado para fins educacionais na aula prática de **Git Local**,  

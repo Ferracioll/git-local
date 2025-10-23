@@ -209,6 +209,80 @@ git log --oneline --graph
 
 ---
 
+## Comandos Git Básicos 💻
+
+### 1. `git clone` 🧑‍🤝‍🧑
+
+O comando `git clone` é utilizado para criar uma cópia local de um repositório remoto. Isso é útil quando você deseja começar a trabalhar em um projeto que já existe em um repositório online (como GitHub, GitLab, etc.).
+
+**Exemplo de uso:**
+```bash
+git clone https://github.com/usuario/repo.git
+```
+
+---
+
+### 2. `git add`➕
+
+O comando `git add` é usado para adicionar alterações feitas nos arquivos ao "staging area" (área de preparação), ou seja, ele coloca os arquivos para serem commitados. Ele pode ser usado tanto para arquivos individuais quanto para todos os arquivos modificados.
+
+**Exemplo de uso:**
+```bash
+git add nome-do-arquivo.ext
+
+git add .
+```
+
+---
+
+### 3. `git commit`🖥️
+
+O comando `git commit` registra as alterações no repositório local. Após usar o git add, você deve executar o git commit para salvar as mudanças de forma permanente no histórico do repositório.
+
+**Exemplo de uso:**
+```bash
+git commit -m "Mensagem de commit"
+```
+
+---
+
+### 4. `git push`🫸
+
+O comando `git push` é usado para enviar os commits locais para o repositório remoto. Isso é o que permite que outras pessoas vejam suas alterações e que seu trabalho seja compartilhado.
+
+**Exemplo de uso:**
+```bash
+git push origin nome-da-branch
+```
+
+---
+
+### 5. 👨‍💻Fluxo básico de trabalho no Git:
+
+   - `git clone` para obter o repositório.
+  
+   - `git add` para preparar as mudanças.
+  
+   - `git commit` para registrar as mudanças no seu repositório local.
+  
+   - `git push` para enviar essas mudanças ao repositório remoto.
+
+---
+
+## Como usar o `GitFluence`🤖:
+
+**Gitfluence** é uma ferramenta poderosa e intuitiva que utiliza **Inteligência Artificial (IA)** para simplificar a sua interação com o Git.
+
+ - Se você gasta tempo procurando a sintaxe exata de comandos Git complexos, o Gitfluence está aqui para transformar seu fluxo de trabalho.
+
+1.  **Descreva a Tarefa:** Insira o que você deseja fazer em linguagem natural.
+    * *Exemplo:* "fazer um commit com a mensagem 'feature completa'"
+2.  **Gere o Comando:** A IA processa sua intenção e gera o comando Git correto.
+    * *Resultado:* `git commit -m "feature completa"`
+3.  **Cole e Execute:** Copie o comando e cole-o diretamente no seu terminal.
+
+---
+
 ## 📘 Créditos
 
 Material criado para fins educacionais na aula prática de **Git Local**,  
